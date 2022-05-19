@@ -21,7 +21,7 @@ edition = "2018"
 
 [dependencies]
 bytes               = "^1"
-prost               = "^0.7"
+prost               = "^0.8"
 log                 = "^0.4"
 cfg-if              = "^0.1"
 thiserror           = "1.0.29"
@@ -50,7 +50,7 @@ env_logger = {version="^0.7"}
 
 
 [build-dependencies]
-prost-build = "0.7"
+prost-build = "0.8"
 
 [dev-dependencies]
 ctrlc = "3.1"
